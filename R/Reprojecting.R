@@ -1,7 +1,8 @@
 
 # Credits -----------------------------------------------------------------
 
-# Code created by Luara Tourinho
+# Code created by Luara Tourinho (https://github.com/luaratourinho)
+
 # 06 May 2021
 
 

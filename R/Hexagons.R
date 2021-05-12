@@ -60,9 +60,10 @@ mypolygon = mypolygon_albers
 
 # Calculating area in m2 and ha
 mypolygon$area_m2<-gArea(mypolygon, byid=T)
+## 1 ha =~ 233145.9
 mypolygon$area_ha<-mypolygon$area_m2/10000
 
-## 1 ha =~ 233145.9 ## AQUI VC TEM Q ACERTAR O N?MERO DE PONTOS NECESS?RIOS 
+ ## AQUI VC TEM Q ACERTAR O N?MERO DE PONTOS NECESS?RIOS 
 # PARA GERAR HEX?GONOS COM A ?REA DESEJADA. VAI TENTANDO
 shape_pts <- spsample(mypolygon, n = 11100, type="hexagonal")
 plot(shape_pts)

@@ -18,3 +18,6 @@ In this routine, you can find out how to create a minimum convex polygon (a.k.a.
 I also provide an example of mpc utility, in an ecological niche context, suggested by Barve et al. 2011 (doi:10.1016/j.ecolmodel.2011.02.011).
 
 
+* Hexagons.R
+
+In this routines, you can find out how to create a hexagonal grid using your polygon. I show 2 options to build it.
